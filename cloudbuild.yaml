@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'SangVV', '--trigger-http', '--runtime', 'nodejs12', '--entry-point', 'SangvvQ12']
+  args: ['functions', 'deploy', 'SangVV', '--trigger-http', '--runtime', 'nodejs12', '--entry-point', 'SangVV']
   id: 'HandsOnLab-ci-cd-with-cloud-function'
